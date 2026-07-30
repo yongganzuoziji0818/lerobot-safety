@@ -1,7 +1,8 @@
 # LeRobot Safety
 
-Code-only public release for executable safety-measurement contracts and
-prospective robot-policy evaluation in RoboCasa.
+Code-only public release for executable safety-measurement contracts,
+prospective robot-policy evaluation in RoboCasa, and external validation with
+independently collected physical SO-101 outcome data.
 
 This repository accompanies the study:
 
@@ -22,6 +23,8 @@ needed to inspect the implementation:
 - frozen estimator and partial-identification implementation;
 - result-independent unit and engineering tests;
 - frozen task list, property bank, schemas and design configuration.
+- the prospectively frozen V5 ArmnetBench protocol, estimator and
+  result-independent tests for physical SO-101 outcome labels.
 
 It deliberately excludes:
 
@@ -54,6 +57,10 @@ research/
     production_e1/   # engineering-successor implementation
     simulation/      # result-blind design-assurance simulation
     tests*/          # result-independent and engineering tests
+  prospective_validation_v5_realworld/
+    design/          # source lock and prospective external-validation protocol
+    analysis/        # three-contract estimator and paired-task bootstrap
+    tests/           # result-independent V5 tests and test receipt
 scripts/
   verify_code_release.py
   build_code_manifest.py
@@ -69,12 +76,15 @@ source .venv/bin/activate
 python -m pip install -r requirements-analysis.txt
 python scripts/verify_code_release.py
 python research/prospective_validation_v4_compact_r1/tests/test_analysis_v4r1.py
+python -m pytest -q \
+  research/prospective_validation_v5_realworld/tests/test_v5_analysis.py
 ```
 
 On Windows PowerShell, activate with `.venv\Scripts\Activate.ps1`.
 
-The unit test uses a synthetic 7,200-row census and does not read or reproduce
-the study results.
+The V4 unit test uses a synthetic 7,200-row census. The V5 tests use only
+synthetic in-memory labels and a temporary write-once file. Neither test reads
+or reproduces study results.
 
 ## Full simulator execution
 
@@ -84,11 +94,11 @@ RoboCasa/RoboSuite, OpenPI and GR00T environments, official benchmark assets,
 policy weights, and a separately controlled execution receipt. These
 third-party or governance-controlled components are not included.
 
-The code does not claim physical safety, injury prevention, deployment
-reliability or architecture-level causality.
+The V5 analysis concerns released outcome labels from physical SO-101
+rollouts. The code does not claim contact-force validation, injury prevention,
+deployment reliability or architecture-level causality.
 
 ## Citation and license
 
 Use `CITATION.cff` when citing the software. Original code is released under
 the MIT License. Third-party dependencies retain their own licenses.
-

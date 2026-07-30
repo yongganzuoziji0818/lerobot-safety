@@ -2,12 +2,12 @@ cff-version: 1.2.0
 message: "If you use this software, please cite this repository and the associated article."
 title: "LeRobot Safety: executable measurement contracts for robot-policy evaluation"
 type: software
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-07-30
 license: MIT
 repository-code: "https://github.com/yongganzuoziji0818/lerobot-safety"
 url: "https://github.com/yongganzuoziji0818/lerobot-safety"
-abstract: "Code-only release for a prospective RoboCasa study of measurement-contract uncertainty in learning-enabled robot safety assessment."
+abstract: "Code-only release for prospective measurement-contract uncertainty studies in RoboCasa and independently collected physical SO-101 outcome data."
 keywords:
   - robot learning
   - safety assessment
@@ -15,6 +15,8 @@ keywords:
   - executable contracts
   - partial identification
   - simulation
+  - physical robot validation
+  - SO-101
 authors:
   - given-names: Yuan
     family-names: Liao
@@ -48,4 +50,3 @@ authors:
     family-names: Hu
     affiliation: "School of Information Engineering, Nanchang Hangkong University"
     orcid: "https://orcid.org/0000-0001-9024-2174"
-

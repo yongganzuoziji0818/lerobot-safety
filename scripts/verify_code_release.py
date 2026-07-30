@@ -47,6 +47,9 @@ FORBIDDEN_NAMES = {
     "governance",
 }
 FORBIDDEN_SUFFIXES = {".docx", ".pdf", ".png", ".tif", ".tiff", ".pt", ".pth"}
+CRLF_CANONICAL_HASH_PATHS = {
+    "research/prospective_validation_v3b/property_bank/PROPERTY_BANK_V3B.json",
+}
 
 
 def sha256(path: Path) -> str:
@@ -55,6 +58,14 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def frozen_source_sha256(path: Path, relative: str) -> str:
+    """Preserve the authoritative source hash across Git LF normalization."""
+    if relative not in CRLF_CANONICAL_HASH_PATHS:
+        return sha256(path)
+    data = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return hashlib.sha256(data.replace(b"\n", b"\r\n")).hexdigest()
 
 
 def require(condition: bool, message: str) -> None:
@@ -66,7 +77,7 @@ def main() -> None:
     for relative, expected in EXPECTED_HASHES.items():
         path = ROOT / relative
         require(path.is_file(), f"MISSING:{relative}")
-        require(sha256(path) == expected, f"HASH:{relative}")
+        require(frozen_source_sha256(path, relative) == expected, f"HASH:{relative}")
 
     leaked = []
     for path in ROOT.rglob("*"):
@@ -93,6 +104,7 @@ def main() -> None:
     print(f"frozen_core_hashes={len(EXPECTED_HASHES)}/{len(EXPECTED_HASHES)}")
     print("scientific_results_included=false")
     print("scientific_analysis_recomputed=false")
+    print("newline_normalized_frozen_hashes=1")
 
 
 if __name__ == "__main__":

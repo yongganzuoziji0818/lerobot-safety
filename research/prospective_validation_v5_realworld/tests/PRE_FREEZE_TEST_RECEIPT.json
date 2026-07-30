@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "protocol_id": "CDSE-ARMNET-V5-RW-001",
+  "command": "D:\\anaconda3\\python.exe -X utf8 -m pytest -q test_v5_analysis.py",
+  "result": "PASS",
+  "tests_passed": 3,
+  "tests_failed": 0,
+  "source_outcome_analysis_executed": false,
+  "quality_columns_inspected_before_freeze": false
+}
+
