@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the associated article."
+title: "LeRobot Safety: executable measurement contracts for robot-policy evaluation"
+type: software
+version: 1.0.0
+date-released: 2026-07-30
+license: MIT
+repository-code: "https://github.com/yongganzuoziji0818/lerobot-safety"
+url: "https://github.com/yongganzuoziji0818/lerobot-safety"
+abstract: "Code-only release for a prospective RoboCasa study of measurement-contract uncertainty in learning-enabled robot safety assessment."
+keywords:
+  - robot learning
+  - safety assessment
+  - measurement uncertainty
+  - executable contracts
+  - partial identification
+  - simulation
+authors:
+  - given-names: Yuan
+    family-names: Liao
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0009-0007-6991-9049"
+  - given-names: Hui
+    family-names: Liu
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0000-0001-9986-1473"
+  - given-names: Jiliang
+    family-names: Tu
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0000-0001-5779-8728"
+  - given-names: Jing
+    family-names: Jiang
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0009-0004-6149-2456"
+  - given-names: Zaihong
+    family-names: Wan
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0009-0000-5720-2541"
+  - given-names: Jianbo
+    family-names: Gao
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0009-0002-1545-1595"
+  - given-names: Ting
+    family-names: Fang
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0000-0002-0135-819X"
+  - given-names: Zhiwei
+    family-names: Hu
+    affiliation: "School of Information Engineering, Nanchang Hangkong University"
+    orcid: "https://orcid.org/0000-0001-9024-2174"
+

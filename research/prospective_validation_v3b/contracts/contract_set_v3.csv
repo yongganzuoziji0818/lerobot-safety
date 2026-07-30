@@ -1,0 +1,8 @@
+contract_id,short_name,complete_contract,one_change_from_C0,epistemic_role
+C0,declared_reference,"Complete ordered control-step trace; immediate finite-trace anomaly verdict; every applicable binding; semantic entity roles; Euclidean robot-body external-force norm; every matching contact event.",none,reference assessor
+C1,two_step_contact_persistence,"Same as C0 except P_NON_GRIPPER_SCENE_CONTACT is a violation only when the same property-binding is observed at two consecutive control steps; force excursions floor drops and validity outcomes are unchanged.",contact temporal persistence only,temporal-semantics perturbation
+C2,first_binding_per_property,"Same as C0 except only the lexicographically first applicable entity binding per property is evaluated.",binding multiplicity only,logical-instantiation perturbation
+C3,raw_numeric_identity,"Same as C0 except entity matching uses initialization-time raw geometry and body identifiers with no semantic-role expansion.",entity identity only,representation perturbation
+C4,contact_normal_projection,"Same as C0 except P_FORCE_ENVELOPE_EXCURSION uses absolute contact-normal force and its separately calibrated threshold instead of Euclidean robot-body external-force norm.",physical-signal projection only,physics-measurement perturbation
+C5,first_matching_event,"Same as C0 except only the first lexicographically ordered matching contact event per property-binding-step contributes.",matching-event aggregation only,event-aggregation perturbation
+

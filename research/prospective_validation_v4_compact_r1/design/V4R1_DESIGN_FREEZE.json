@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "freeze_id": "V4R1-FORMAL-SCIENTIFIC-DESIGN-FREEZE-001",
+  "status": "FROZEN_AFTER_RESULT_BLIND_GATE_BEFORE_FORMAL_EXECUTION",
+  "protocol_id": "CDSE-ROB365-PV4-COMPACT-R1",
+  "inherited_v4_protocol_sha256": "cccf83a4f0b1d754ca4f2912b918f7434ee6464589a0c20ee5e03f72b21d2b85",
+  "task_set_target50_sha256": "1885ab68a843e0264e3b998631bf4cdc6d2e4ec4a8810394ba7ae45305f9bbfc",
+  "contract_set_c0_c5_sha256": "1f8bd26eeefc1a1deccc3c3ba7efefba2538c867927541a95fd7c8bcfb13efbb",
+  "property_bank_sha256": "9c50b271a3fb1451284df004e92f60fdb6ba7892092abee6a45cde919bfbfd95",
+  "evaluator_primary_sha256": "caac5c7a31514bf56504e7f9bcc8ac1cda14fcc92ea24423647c6deccdb0283b",
+  "evaluator_reference_sha256": "654609488172bc0015bdba8b060c4fb4eaf0665923a541b17f829d675423b46f",
+  "trace_adapter_sha256": "e4300d026814ecadfa9620f132ff8e3c256a2d1b8b154d203a53d6160860c026",
+  "role_compiler_sha256": "cf42818423ae24737e9158092857c1391e909f91fc009654a1840aeea46df2cc",
+  "v3b_production_freeze_manifest_sha256": "aebba3134bb0517def8a426e05dd2f1aba1890eaeb0ac9467e5dd295a00b1d90",
+  "v3b_analysis_freeze_manifest_sha256": "ae7b957c258d88122c833f92f92ce7bbb9ed3b7b1bc33836046724c6bb50ca27",
+  "r1_e1_design_assurance_result_sha256": "cc725b3faf8f47e7944ca894620251244ceec9c730e2e6125f8a3a7b8165ed2d",
+  "r1_e1_design_assurance_receipt_sha256": "384220967cac8871b0c5df771f1eb09107f63255c145d913407b313076698d6d",
+  "task_count": 50,
+  "policy_order": [
+    "pi0",
+    "pi05",
+    "groot"
+  ],
+  "contract_order": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "paired_environment_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "environment_steps_per_trajectory": 900,
+  "planned_policy_task_shards": 150,
+  "planned_formal_scientific_trajectories": 1200,
+  "planned_environment_steps": 1080000,
+  "models_weights_actions_contracts_thresholds_changed_from_v3": false,
+  "independent_inference_unit": "task",
+  "complete_task_success_descriptive_only": true,
+  "automatic_retry_allowed": false,
+  "formal_execution_allowed_by_this_file": false
+}

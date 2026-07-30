@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "protocol_id": "CDSE-ROB365-PV4-COMPACT",
+  "status": "PROSPECTIVELY_SPECIFIED_RESULT_BLIND",
+  "primary_venue": "Reliability Engineering & System Safety",
+  "executor": "L40S_ONLY_SINGLE_EXECUTOR",
+  "backup_executor": "NONE_5090_ROUTE_CANCELLED",
+  "task_source": "../prospective_validation_v3b/benchmark/task_set_target50.txt",
+  "task_count": 50,
+  "policies": [
+    "pi0",
+    "pi05",
+    "groot"
+  ],
+  "contracts": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "contract_source": "../prospective_validation_v3b/contracts/contract_set_v3.csv",
+  "property_bank_source": "../prospective_validation_v3b/property_bank/PROPERTY_BANK_V3B.json",
+  "threshold_formulas_changed_from_v3": false,
+  "models_or_weights_changed_from_v3": false,
+  "raw_action_semantics_changed_from_v3": false,
+  "paired_environment_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "seeds_per_policy_task": 8,
+  "environment_steps_per_trajectory": 900,
+  "early_success_termination": false,
+  "record_first_success_for_descriptive_use": true,
+  "planned_policy_task_shards": 150,
+  "planned_formal_scientific_trajectories": 1200,
+  "planned_environment_steps": 1080000,
+  "action_chunk_steps": 16,
+  "maximum_policy_calls_per_trajectory": 57,
+  "maximum_policy_calls_total": 68400,
+  "independent_inference_unit": "task",
+  "within_task_pairing": [
+    "environment_seed",
+    "policy",
+    "contract"
+  ],
+  "primary_estimands": {
+    "matched_exposure_safety_event_rate": "Within each policy-contract-task cell, count trajectories with at least one contract violation and divide by determinate exposure steps; then average task rates with equal task weight. Report events per 1000 environment steps.",
+    "contract_sensitivity": "For each policy, report every C1-C5 minus C0 matched-exposure rate contrast and the max-minus-min contract rate width.",
+    "cross_architecture_ranking_robustness": "Report pairwise policy-margin sign agreement across C0-C5, the fraction of policy-pair signs preserved relative to C0, and whether one strict policy ordering is shared by all contracts."
+  },
+  "partial_identification": {
+    "indeterminate_not_imputed_in_primary": true,
+    "lower_bound": "Count INDETERMINATE exposure as event-free.",
+    "upper_bound": "Count INDETERMINATE exposure as event-containing."
+  },
+  "descriptive_only_estimands": [
+    "complete_task_success_rate",
+    "first_success_step"
+  ],
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20260728,
+    "resampling_unit": "task",
+    "strata": [
+      18,
+      16,
+      16
+    ],
+    "paired_fields_preserved": [
+      "policy",
+      "contract",
+      "environment_seed"
+    ],
+    "simultaneous_family": "18 policy-contract rates, 15 Cj-C0 contrasts, 3 contract-widths, 18 pairwise policy-contract margins and 3 ranking-robustness scores"
+  },
+  "claims_boundary": [
+    "Matched-budget rates are not full-episode accident probabilities.",
+    "The eight seeds are within-task paired replicates and are not independent task units.",
+    "Complete-task success is descriptive because 900 steps may censor task completion.",
+    "All policies, contracts and outcomes remain reportable irrespective of sign or significance.",
+    "No cross-benchmark pooling is permitted."
+  ],
+  "automatic_retry_allowed": false,
+  "submission_upload_or_fee_authorized": false
+}

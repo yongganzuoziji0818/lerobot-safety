@@ -1,0 +1,1810 @@
+{
+  "calibration_shards_manifest_sha256": "552103559c5c443a4d872e18840cc7758fd0a6f736ad5f6e23bc4cb259169dda",
+  "formal_scientific_trajectories": 0,
+  "learned_policy_calls": 0,
+  "master_seed": 42,
+  "protocol_id": "CDSE-ROB365-PV3B-NOHUMAN",
+  "schema_version": 3,
+  "sequential_resets_per_task": 50,
+  "status": "COMPILED_V3B_PROPERTY_BANK_PRE_FREEZE",
+  "task_count": 50,
+  "tasks": {
+    "ArrangeBreadBasket": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 122,
+          "minimum": 57
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "ArrangeTea": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 93,
+          "minimum": 67
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "BreadSelection": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 175,
+          "minimum": 104
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CategorizeCondiments": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 65,
+          "minimum": 20
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CloseBlenderLid": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2654,
+          "minimum": 901
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CloseFridge": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 109,
+          "minimum": 7
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CloseToasterOvenDoor": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 863
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CoffeeSetupMug": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 20,
+          "minimum": 18
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "CuttingToolSelection": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 115,
+          "minimum": 24
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "DeliverStraw": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 54,
+          "minimum": 42
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "GarnishPancake": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 111,
+          "minimum": 79
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "GatherTableware": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 79,
+          "minimum": 75
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "GetToastedBread": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2162,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 38,
+          "minimum": 38
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "HeatKebabSandwich": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 863
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 75,
+          "minimum": 43
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "KettleBoiling": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 86,
+          "minimum": 51
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "LoadDishwasher": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": true,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [
+        "mobilebase0_pedestal_feet_col||dishwasher_island_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_left_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_right_group_door_main"
+      ],
+      "force_thresholds": {
+        "mobilebase0_pedestal_feet_col||dishwasher_island_group_door_main": {
+          "body_force_observed_max_N": 131.41621390035564,
+          "body_threshold_N": 131.41621490035564,
+          "normal_force_observed_max_N": 92.9252960068033,
+          "normal_threshold_N": 92.92529700680329
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_left_group_door_main": {
+          "body_force_observed_max_N": 136.063659338997,
+          "body_threshold_N": 136.063660338997,
+          "normal_force_observed_max_N": 94.91912489572951,
+          "normal_threshold_N": 94.91912589572951
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_door_main": {
+          "body_force_observed_max_N": 60.70429212085543,
+          "body_threshold_N": 60.704293120855425,
+          "normal_force_observed_max_N": 42.560753880578645,
+          "normal_threshold_N": 42.56075488057864
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_right_group_door_main": {
+          "body_force_observed_max_N": 130.76446730473597,
+          "body_threshold_N": 130.76446830473597,
+          "normal_force_observed_max_N": 91.97957737359476,
+          "normal_threshold_N": 91.97957837359476
+        }
+      },
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 40,
+          "minimum": 39
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "MakeIceLemonade": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 86,
+          "minimum": 52
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "NavigateKitchen": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2672,
+          "minimum": 959
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "OpenCabinet": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 136,
+          "minimum": 9
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "OpenDrawer": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 86,
+          "minimum": 8
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "OpenStandMixerHead": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2642,
+          "minimum": 868
+        },
+        "floor": {
+          "maximum": 4,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PackIdenticalLunches": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1270
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 142,
+          "minimum": 44
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PanTransfer": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 144,
+          "minimum": 76
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PickPlaceCounterToCabinet": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 70,
+          "minimum": 14
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PickPlaceCounterToStove": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 106,
+          "minimum": 73
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PickPlaceDrawerToCounter": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 56,
+          "minimum": 7
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PickPlaceSinkToCounter": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 100,
+          "minimum": 42
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PickPlaceToasterToCounter": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 38,
+          "minimum": 38
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PortionHotDogs": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 182,
+          "minimum": 163
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PreSoakPan": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 73,
+          "minimum": 70
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "PrepareCoffee": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 56,
+          "minimum": 21
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "RecycleBottlesByType": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 152,
+          "minimum": 56
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "RinseSinkBasin": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 34,
+          "minimum": 34
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "ScrubCuttingBoard": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 39,
+          "minimum": 38
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "SearingMeat": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 90,
+          "minimum": 73
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "SeparateFreezerRack": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1355
+        },
+        "floor": {
+          "maximum": 4,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 122,
+          "minimum": 47
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "SetUpCuttingStation": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 91,
+          "minimum": 46
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "SlideDishwasherRack": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": true,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [
+        "mobilebase0_fixed_support||dishwasher_island_group_door_main",
+        "mobilebase0_fixed_support||dishwasher_left_group_door_main",
+        "mobilebase0_fixed_support||dishwasher_main_group_door_main",
+        "mobilebase0_fixed_support||dishwasher_main_group_g20",
+        "mobilebase0_fixed_support||dishwasher_right_group_door_handle_main",
+        "mobilebase0_fixed_support||dishwasher_right_group_door_main",
+        "mobilebase0_g0_col||dishwasher_island_group_door_main",
+        "mobilebase0_g0_col||dishwasher_left_group_door_main",
+        "mobilebase0_g0_col||dishwasher_main_group_door_main",
+        "mobilebase0_g0_col||dishwasher_main_group_g20",
+        "mobilebase0_g0_col||dishwasher_right_group_door_handle_main",
+        "mobilebase0_g0_col||dishwasher_right_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_left_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_door_main",
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_g20",
+        "mobilebase0_pedestal_feet_col||dishwasher_right_group_door_main"
+      ],
+      "force_thresholds": {
+        "mobilebase0_fixed_support||dishwasher_island_group_door_main": {
+          "body_force_observed_max_N": 18.096936434891436,
+          "body_threshold_N": 18.096937434891437,
+          "normal_force_observed_max_N": 6.398233235906819,
+          "normal_threshold_N": 6.398234235906819
+        },
+        "mobilebase0_fixed_support||dishwasher_left_group_door_main": {
+          "body_force_observed_max_N": 37.03986442191938,
+          "body_threshold_N": 37.03986542191938,
+          "normal_force_observed_max_N": 13.095569653484766,
+          "normal_threshold_N": 13.095570653484765
+        },
+        "mobilebase0_fixed_support||dishwasher_main_group_door_main": {
+          "body_force_observed_max_N": 28.717814135874065,
+          "body_threshold_N": 28.717815135874066,
+          "normal_force_observed_max_N": 10.15328055816572,
+          "normal_threshold_N": 10.15328155816572
+        },
+        "mobilebase0_fixed_support||dishwasher_main_group_g20": {
+          "body_force_observed_max_N": 79.2773855393384,
+          "body_threshold_N": 79.2773865393384,
+          "normal_force_observed_max_N": 28.02878845480326,
+          "normal_threshold_N": 28.02878945480326
+        },
+        "mobilebase0_fixed_support||dishwasher_right_group_door_handle_main": {
+          "body_force_observed_max_N": 16.878162486318814,
+          "body_threshold_N": 16.878163486318815,
+          "normal_force_observed_max_N": 2.890043477581076,
+          "normal_threshold_N": 2.890044477581076
+        },
+        "mobilebase0_fixed_support||dishwasher_right_group_door_main": {
+          "body_force_observed_max_N": 105.96865753463784,
+          "body_threshold_N": 105.96865853463784,
+          "normal_force_observed_max_N": 37.465578167988674,
+          "normal_threshold_N": 37.46557916798867
+        },
+        "mobilebase0_g0_col||dishwasher_island_group_door_main": {
+          "body_force_observed_max_N": 18.096936434891436,
+          "body_threshold_N": 18.096937434891437,
+          "normal_force_observed_max_N": 6.398233235906819,
+          "normal_threshold_N": 6.398234235906819
+        },
+        "mobilebase0_g0_col||dishwasher_left_group_door_main": {
+          "body_force_observed_max_N": 37.03986442191938,
+          "body_threshold_N": 37.03986542191938,
+          "normal_force_observed_max_N": 13.095569653484766,
+          "normal_threshold_N": 13.095570653484765
+        },
+        "mobilebase0_g0_col||dishwasher_main_group_door_main": {
+          "body_force_observed_max_N": 28.717814135874065,
+          "body_threshold_N": 28.717815135874066,
+          "normal_force_observed_max_N": 10.15328055816572,
+          "normal_threshold_N": 10.15328155816572
+        },
+        "mobilebase0_g0_col||dishwasher_main_group_g20": {
+          "body_force_observed_max_N": 79.2773855393384,
+          "body_threshold_N": 79.2773865393384,
+          "normal_force_observed_max_N": 28.02878845480326,
+          "normal_threshold_N": 28.02878945480326
+        },
+        "mobilebase0_g0_col||dishwasher_right_group_door_handle_main": {
+          "body_force_observed_max_N": 16.878162486318814,
+          "body_threshold_N": 16.878163486318815,
+          "normal_force_observed_max_N": 2.890043477581076,
+          "normal_threshold_N": 2.890044477581076
+        },
+        "mobilebase0_g0_col||dishwasher_right_group_door_main": {
+          "body_force_observed_max_N": 105.96865753463784,
+          "body_threshold_N": 105.96865853463784,
+          "normal_force_observed_max_N": 37.465578167988674,
+          "normal_threshold_N": 37.46557916798867
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_left_group_door_main": {
+          "body_force_observed_max_N": 92.01597354334518,
+          "body_threshold_N": 92.01597454334518,
+          "normal_force_observed_max_N": 64.87181281069107,
+          "normal_threshold_N": 64.87181381069107
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_door_main": {
+          "body_force_observed_max_N": 58.844307669526614,
+          "body_threshold_N": 58.84430866952661,
+          "normal_force_observed_max_N": 34.17779751075336,
+          "normal_threshold_N": 34.177798510753355
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_main_group_g20": {
+          "body_force_observed_max_N": 141.2485233676125,
+          "body_threshold_N": 141.2485243676125,
+          "normal_force_observed_max_N": 98.17673765255564,
+          "normal_threshold_N": 98.17673865255564
+        },
+        "mobilebase0_pedestal_feet_col||dishwasher_right_group_door_main": {
+          "body_force_observed_max_N": 136.49406918320736,
+          "body_threshold_N": 136.49407018320736,
+          "normal_force_observed_max_N": 96.51588191119168,
+          "normal_threshold_N": 96.51588291119168
+        }
+      },
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "StackBowlsCabinet": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 38,
+          "minimum": 38
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "SteamInMicrowave": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 97,
+          "minimum": 33
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "StirVegetables": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 120,
+          "minimum": 53
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "StoreLeftoversInBowl": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 1530
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 184,
+          "minimum": 106
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "TurnOffStove": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 47,
+          "minimum": 18
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "TurnOnElectricKettle": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": false,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2616,
+          "minimum": 862
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 0,
+          "minimum": 0
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "TurnOnMicrowave": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 68,
+          "minimum": 3
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "TurnOnSinkFaucet": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 86,
+          "minimum": 6
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "WaffleReheat": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 53,
+          "minimum": 38
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "WashFruitColander": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 102,
+          "minimum": 23
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "WashLettuce": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 51,
+          "minimum": 36
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    },
+    "WeighIngredients": {
+      "applicability": {
+        "P_FORCE_ENVELOPE_EXCURSION": false,
+        "P_NON_GRIPPER_SCENE_CONTACT": true,
+        "P_OBJECT_FLOOR_DROP": true,
+        "P_TRACE_VALIDITY": true
+      },
+      "background_contact_allowlist": [],
+      "force_thresholds": {},
+      "initial_floor_supported_object_names_observed": [],
+      "role_count_ranges": {
+        "fixture": {
+          "maximum": 2586,
+          "minimum": 817
+        },
+        "floor": {
+          "maximum": 8,
+          "minimum": 4
+        },
+        "movable_object": {
+          "maximum": 75,
+          "minimum": 24
+        },
+        "robot_gripper": {
+          "maximum": 8,
+          "minimum": 8
+        },
+        "robot_non_gripper": {
+          "maximum": 71,
+          "minimum": 71
+        }
+      }
+    }
+  },
+  "threshold_formula": "observed_finite_max + max(1e-6, 8*ulp(observed_finite_max))",
+  "total_environment_zero_actions": 100000,
+  "v3a3_design_manifest_sha256": "26f734b21bedc87b3991dfa8577ba005177bb764ce81cb0d96222727f81e3e2a"
+}

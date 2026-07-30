@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "amendment_id": "V4C-R1-CONTRACT-CONTRAST-PRECISION-001",
+  "status": "FROZEN_BEFORE_R1_SIMULATION",
+  "inherited_scientific_protocol": "../prospective_validation_v4_compact/design/V4_COMPACT_PROTOCOL.json",
+  "inherited_scientific_protocol_sha256": "cccf83a4f0b1d754ca4f2912b918f7434ee6464589a0c20ee5e03f72b21d2b85",
+  "inherited_v4_failure_result_sha256": "762a85de69251faef180ff8507f63a5e0186b6926589c6f4af0c65ecaab3a59c",
+  "formal_scientific_design_changed": false,
+  "tasks": 50,
+  "policies": 3,
+  "contracts": 6,
+  "paired_seeds_per_policy_task": 8,
+  "steps_per_trajectory": 900,
+  "simulation_seed": 2026072802,
+  "replicates_per_scenario": 10000,
+  "calibration_replicates": 5000,
+  "validation_replicates": 5000,
+  "scenario_spec_source": "../prospective_validation_v4_compact/design/POWER_PRECISION_SIMULATION_SPEC.json",
+  "scenario_spec_source_sha256": "8a2fab523c2fc947e6bf862d8dfdc18ddecdf0bc2a98ed86a1821807246949eb",
+  "contract_contrast_family": [
+    "C1-C0",
+    "C2-C0",
+    "C3-C0",
+    "C4-C0",
+    "C5-C0"
+  ],
+  "contract_contrast_count": 15,
+  "contrast_scale": "events_per_1000_environment_steps",
+  "precision_gate": {
+    "core_scenarios": [
+      "null_low",
+      "null_mid",
+      "null_high",
+      "weak_mid",
+      "moderate_low",
+      "moderate_mid",
+      "moderate_high",
+      "strong_mid"
+    ],
+    "maximum_core_simultaneous_95_half_width": 0.10,
+    "stress_scenarios": [
+      "stress_strong_mid"
+    ],
+    "maximum_stress_simultaneous_95_half_width": 0.14,
+    "minimum_validation_simultaneous_coverage": 0.93,
+    "maximum_validation_simultaneous_coverage": 0.97,
+    "maximum_absolute_contract_contrast_bias": 0.01,
+    "maximum_monte_carlo_wilson_half_width": 0.015
+  },
+  "precision_threshold_justification": "A half-width of 0.10 events per 1000 steps bounds uncertainty in a 900-step matched exposure to 0.09 event-probability units; 0.14 is retained only for the explicitly adverse heterogeneity and indeterminacy stress scenario.",
+  "unchanged_architecture_rank_gate": {
+    "moderate_mid_minimum_correct_all_contract_rank_wilson_lower": 0.60,
+    "strong_mid_minimum_correct_all_contract_rank_wilson_lower": 0.80
+  },
+  "removed_gate": {
+    "name": "contract_direction_recovery",
+    "reason": "Architecture effect magnitude does not identify or increase recovery of contract-specific direction; the gate was structurally misaligned with the estimand."
+  },
+  "failure_policy": "FAIL_CLOSED_NO_THRESHOLD_TUNING_NO_AUTOMATIC_RERUN",
+  "formal_execution_allowed": false
+}

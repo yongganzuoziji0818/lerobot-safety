@@ -1,0 +1,25 @@
+{
+  "schema_version": 3,
+  "protocol_id": "CDSE-ROB365-PV3A3-NOHUMAN",
+  "selected_benchmark": "Official RoboCasa365 Target-50",
+  "repository": "https://github.com/robocasa/robocasa.git",
+  "commit": "b4684e6ee37d377cc392e98302a6b916d588b415",
+  "task_file": "task_set_target50.txt",
+  "task_count": 50,
+  "strata": {
+    "Atomic-Seen": 18,
+    "Composite-Seen": 16,
+    "Composite-Unseen": 16
+  },
+  "master_seed": 42,
+  "sequential_resets_per_task": 50,
+  "formal_policy_count": 3,
+  "formal_trajectory_count": 7500,
+  "code_license": "MIT",
+  "assets_and_data_license": "CC BY 4.0",
+  "v2_remote_receipt_manifest_sha256": "4e90fd6d11d8849e578d7feedb4d13113798a7ab0e0a17d83261ef93c1fc97f5",
+  "cross_benchmark_role": {
+    "RoboCasa": "prospective confirmatory benchmark",
+    "LIBERO-Safety": "historical post-hoc benchmark; no pooled inference"
+  }
+}

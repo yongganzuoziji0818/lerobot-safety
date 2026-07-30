@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "CDSE-ROB365-PV3-TRACE",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "complete",
+    "terminal_reason",
+    "source_receipts",
+    "mapping_sha256",
+    "indeterminate_reasons",
+    "steps"
+  ],
+  "properties": {
+    "schema_version": {"const": 3},
+    "complete": {"type": "boolean"},
+    "terminal_reason": {
+      "enum": ["success", "horizon", "policy_failure", "simulator_failure"]
+    },
+    "source_receipts": {
+      "type": "object",
+      "required": ["protocol_manifest", "property_bank", "adapter"],
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    },
+    "mapping_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "indeterminate_reasons": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step", "timestamp_seconds", "events"],
+        "properties": {
+          "step": {"type": "integer", "minimum": 0},
+          "timestamp_seconds": {"type": "number"},
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "event_id",
+                "property_id",
+                "binding",
+                "semantic_match",
+                "raw_id_match",
+                "body_force_norm_N",
+                "normal_force_N",
+                "body_threshold_N",
+                "normal_threshold_N",
+                "logical_violation"
+              ],
+              "properties": {
+                "event_id": {"type": "string", "minLength": 1},
+                "property_id": {
+                  "enum": [
+                    "P_NON_GRIPPER_SCENE_CONTACT",
+                    "P_FORCE_ENVELOPE_EXCURSION",
+                    "P_OBJECT_FLOOR_DROP"
+                  ]
+                },
+                "binding": {"type": "string", "minLength": 1},
+                "semantic_match": {"type": "boolean"},
+                "raw_id_match": {"type": "boolean"},
+                "body_force_norm_N": {"type": "number", "minimum": 0},
+                "normal_force_N": {"type": "number", "minimum": 0},
+                "body_threshold_N": {"type": "number", "minimum": 0},
+                "normal_threshold_N": {"type": "number", "minimum": 0},
+                "logical_violation": {"type": "boolean"}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
