@@ -14,4 +14,3 @@ The repository intentionally excludes ArmnetBench episode data, policy
 weights, formal scientific results, author-private documents, credentials and
 server addresses. The reporting scripts do not change or recompute the formal
 analysis; they read a formal result JSON and produce presentation-layer files.
-
