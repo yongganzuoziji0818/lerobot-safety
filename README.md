@@ -25,6 +25,10 @@ needed to inspect the implementation:
 - frozen task list, property bank, schemas and design configuration.
 - the prospectively frozen V5 ArmnetBench protocol, estimator and
   result-independent tests for physical SO-101 outcome labels.
+- the prospectively frozen V6 synthetic-oracle calibration, exact aggregate
+  label-flip sensitivity code and result-independent validation tests;
+- a deterministic reporting extension for contract-identified risk hulls,
+  robust point ordering and accept/reject/defer decision regions.
 
 It deliberately excludes:
 
@@ -61,6 +65,14 @@ research/
     design/          # source lock and prospective external-validation protocol
     analysis/        # three-contract estimator and paired-task bootstrap
     tests/           # result-independent V5 tests and test receipt
+  prospective_validation_v6_nonhardware/
+    synthetic/       # prospective known-truth calibration generator
+    robustness/      # exact aggregate adversarial label-flip radii
+    theory/          # finite measurement-contract formalization
+    tests/           # result-independent V6 checks
+  prospective_validation_v6_reporting_extension/
+    theory/          # identified-risk and decision-region propositions
+    decision/        # deterministic extraction and independent audit source
 scripts/
   verify_code_release.py
   build_code_manifest.py
@@ -97,6 +109,12 @@ third-party or governance-controlled components are not included.
 The V5 analysis concerns released outcome labels from physical SO-101
 rollouts. The code does not claim contact-force validation, injury prevention,
 deployment reliability or architecture-level causality.
+
+The V6 and reporting-extension sources add no robot execution. The synthetic
+calibration is a known-truth software/statistical check, the label-flip radii
+are aggregate worst-case sensitivities rather than estimates of labelling
+error, and the decision bands are point-set identification results rather than
+confidence intervals or deployment thresholds.
 
 ## Citation and license
 

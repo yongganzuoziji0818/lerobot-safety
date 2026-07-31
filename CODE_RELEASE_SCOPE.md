@@ -5,6 +5,10 @@
 - Original Python and Shell sources for V4-Compact-R1.
 - Prospectively frozen V5 physical SO-101 outcome-contract protocol, estimator
   and result-independent tests.
+- Prospectively frozen V6 non-hardware protocol, synthetic-oracle generator,
+  exact aggregate label-flip analysis, theory and result-independent tests.
+- Deterministic reporting-extension source for identified risk hulls, robust
+  point ordering and three-way decision regions.
 - Exact evaluator, role-compiler, trace-adapter and IPC dependencies referenced
   by the frozen production code.
 - Frozen task list, contract definitions, property bank, trace schema and
